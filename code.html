@@ -101,7 +101,7 @@
     appendMessage(userMessage, 'user');
     inputField.value = '';
 
-    fetch('https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbzbYted3tY5ZuRQxQ2QSeiZf93gvdyiRzN_8mRxti3zS1owQmiEDRJTiWTtNT8_H0dY/exec/', {
+    fetch('https://script.google.com/macros/s/AKfycbzbYted3tY5ZuRQxQ2QSeiZf93gvdyiRzN_8mRxti3zS1owQmiEDRJTiWTtNT8_H0dY/exec/', {
       method: 'POST',
       body: JSON.stringify({ message: userMessage }),
       headers: { 'Content-Type': 'application/json' }
@@ -118,4 +118,5 @@
 
 </body>
 </html>
+
 
